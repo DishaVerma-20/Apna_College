@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",            // Node.js me CommonJS ya "NodeNext" use hota hai
+        "moduleResolution": "node",      // Browser/Bundler nahi, Node style resolution
+        "target": "ES2022",
+        "lib": ["es2022"],               // DOM hata ke sirf ECMAScript features
+        "types": ["node"],               // Sirf Node.js ke types
+        "strictNullChecks": true,
+        "strictFunctionTypes": true
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
