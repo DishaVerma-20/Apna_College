@@ -1,0 +1,49 @@
+*{
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+        .main{
+            max-width: 1000px;
+            margin: auto; 
+            text-align: center;
+            /* space ko evenly divide krta hai */
+            /* height: 200px; */
+            /* background-color: red; */
+            border: 2px solid #000000;
+        }
+
+        .main h1{
+            color: red;
+            font-size: 25px;
+            max-width: 1000px;
+        }
+
+
+        /* media vala part niche likhna hai vrna override ho jayga */
+
+        /* .main1{
+            max-width: 1170px;
+            height: 300px;
+            margin: auto;
+        } */
+
+        /* niche vali class common property ko overwrite krti hai, baaki sab same rhta haii */
+        
+        .bannerSection{
+            max-width: 1280px;
+            display: flex;
+            margin: auto;
+            flex-wrap: wrap;
+        }
+
+        .item{
+            flex-basis: 23%; 
+            /* initial size kya hoga  */
+            /* agar flex-drxn is column toh it will work as height  */
+            margin: 1%;
+        }
+
+        .item img{
+            width: 100%;
+        }
